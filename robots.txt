@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jeffniess-sketch.github.io/mtg-collector-explorer/sitemap.xml
+Sitemap: https://jeffsmtg.github.io/sitemap.xml
