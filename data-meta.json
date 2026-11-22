@@ -1,19 +1,19 @@
 {
-  "built": "2026-11-21T07:58:00-0600",
-  "cards": 1892,
+  "built": "2026-11-22T07:52:20-0600",
+  "cards": 1895,
   "reserved": 571,
   "sealed": 428,
   "extra_printings": 67,
-  "sets": 231,
-  "caption": "Prices as of Nov 21, 2026 (America/Chicago time): card prices are TCGplayer market prices via Scryfall bulk data (Nov 21, 4:06 AM CST) with gaps filled from TCGCSV; sealed prices from TCGCSV (Nov 21, 7:43 AM CST). Tournament deck rates from MTGTop8 (Nov 21, 7:53 AM CST); Commander deck rates from EDHREC (Nov 21, 7:57 AM CST).",
+  "sets": 229,
+  "caption": "Prices as of Nov 22, 2026 (America/Chicago time): card prices are TCGplayer market prices via Scryfall bulk data (Nov 22, 4:06 AM CST) with gaps filled from TCGCSV; sealed prices from TCGCSV (Nov 22, 7:39 AM CST). Tournament deck rates from MTGTop8 (Nov 22, 7:49 AM CST); Commander deck rates from EDHREC (Nov 22, 7:51 AM CST).",
   "source_times": {
-    "edhrec_lists": "2026-11-21T07:43:30.233606-06:00",
-    "scryfall": "2026-11-21T10:06:20.089000+00:00",
-    "goldfish": "2026-11-21T07:43:44.576065-06:00",
-    "tcgcsv": "2026-11-21T07:43:52.039371-06:00",
-    "top8": "2026-11-21T07:53:35.917874-06:00",
-    "catalog": "2026-11-21T07:54:46.641345-06:00",
-    "edhrec": "2026-11-21T07:57:22.572880-06:00"
+    "edhrec_lists": "2026-11-22T07:39:20.676253-06:00",
+    "scryfall": "2026-11-22T10:06:09.976000+00:00",
+    "goldfish": "2026-11-22T07:39:35.394905-06:00",
+    "tcgcsv": "2026-11-22T07:39:46.646422-06:00",
+    "top8": "2026-11-22T07:49:26.430376-06:00",
+    "catalog": "2026-11-22T07:50:21.324743-06:00",
+    "edhrec": "2026-11-22T07:51:45.676335-06:00"
   },
   "seo_pages": 51
 }
