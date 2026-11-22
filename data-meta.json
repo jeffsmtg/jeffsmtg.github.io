@@ -1,11 +1,151 @@
 {
-  "built": "2026-11-22T16:02:38-0600",
-  "cards": 1895,
+  "built": "2026-11-22T16:33:49-0600",
+  "oracles": 34593,
+  "printings": 103950,
+  "cards": 34593,
   "reserved": 571,
   "sealed": 428,
-  "extra_printings": 67,
-  "sets": 229,
-  "caption": "Prices as of Nov 22, 2026 (America/Chicago time): card prices are TCGplayer market prices via Scryfall bulk data (Nov 22, 4:06 AM CST) with gaps filled from TCGCSV; sealed prices from TCGCSV (Nov 22, 7:39 AM CST). Tournament deck rates from MTGTop8 (Nov 22, 7:49 AM CST); Commander deck rates from EDHREC (Nov 22, 7:51 AM CST).",
+  "sets": 694,
+  "caption": "Prices as of Nov 22, 2026 (America/Chicago time): card prices are TCGplayer market prices from Scryfall bulk data (Nov 22, 4:06 AM CST). A few clearly bad USD quotes (a tiny dollar price next to a large euro price, mostly Summer Magic) were omitted and not replaced. Sealed prices are from TCGCSV (Nov 22, 7:39 AM CST). Tournament deck rates from MTGTop8 (Nov 22, 7:49 AM CST); Commander deck rates from EDHREC (Nov 22, 7:51 AM CST), for cards this site has fetched.",
+  "catalog_bytes_gz": 1623136,
+  "ids_bytes_gz": 1662959,
+  "omitted_prices": [
+    {
+      "name": "Balance",
+      "set": "30a",
+      "cn": "300",
+      "usd": "0.10",
+      "eur": "150.00",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "107cfaa9-3457-4f59-89ad-4c7b57a87f14"
+    },
+    {
+      "name": "Dark Ritual",
+      "set": "sum",
+      "cn": "99",
+      "usd": "0.44",
+      "eur": "2985.84",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "6739a5bb-5ed7-4f15-affb-4170239d997a"
+    },
+    {
+      "name": "Dwarven Warriors",
+      "set": "sum",
+      "cn": "144",
+      "usd": "1.00",
+      "eur": "473.11",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "c65e2353-20a0-4894-bd9e-dae5c8920168"
+    },
+    {
+      "name": "Fear",
+      "set": "sum",
+      "cn": "111",
+      "usd": "0.15",
+      "eur": "335.50",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "3f9b6fcd-129b-4c94-b216-d065485ba736"
+    },
+    {
+      "name": "Fireball",
+      "set": "sum",
+      "cn": "150",
+      "usd": "1.00",
+      "eur": "177.79",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "5f96e816-206b-4fd7-a7d7-2d90542cf30a"
+    },
+    {
+      "name": "Fog",
+      "set": "sum",
+      "cn": "195",
+      "usd": "1.00",
+      "eur": "279.13",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "9592c31e-179e-43d3-b2b8-b83c0dbea922"
+    },
+    {
+      "name": "Forest",
+      "set": "sum",
+      "cn": "305",
+      "usd": "0.30",
+      "eur": "443.12",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "bd712cf8-d5aa-439f-8030-db612bf6d0b1"
+    },
+    {
+      "name": "Giant Spider",
+      "set": "sum",
+      "cn": "200",
+      "usd": "0.35",
+      "eur": "242.81",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "b2dea99d-bd42-4cec-bd09-cfa81b7bdcef"
+    },
+    {
+      "name": "Jump",
+      "set": "sum",
+      "cn": "62",
+      "usd": "0.49",
+      "eur": "154.32",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "5d86b77f-7890-40b8-b5c3-fffa88f3fe52"
+    },
+    {
+      "name": "Kird Ape",
+      "set": "sum",
+      "cn": "161",
+      "usd": "0.37",
+      "eur": "384.64",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "c88e9802-4066-453e-b246-96b6245d21fe"
+    },
+    {
+      "name": "Red Elemental Blast",
+      "set": "sum",
+      "cn": "171",
+      "usd": "2.36",
+      "eur": "839.00",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "33887af0-680d-45a5-944f-a4480958094c"
+    },
+    {
+      "name": "Rock Hydra",
+      "set": "sum",
+      "cn": "173",
+      "usd": "1.00",
+      "eur": "1200.00",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "ce2414c5-5956-4934-bed7-7c32ca3a9595"
+    },
+    {
+      "name": "Sacrifice",
+      "set": "sum",
+      "cn": "126",
+      "usd": "1.80",
+      "eur": "400.00",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "652bd781-1a48-42c1-9aff-f9050a9285d6"
+    },
+    {
+      "name": "Wall of Ice",
+      "set": "sum",
+      "cn": "225",
+      "usd": "0.99",
+      "eur": "251.07",
+      "reason": "usd omitted: tiny USD next to large EUR (likely a bad quote; not replaced)",
+      "id": "f1b483ba-ba51-4d8b-a455-a47c6be70ee8"
+    }
+  ],
+  "excluded": {
+    "digital_only_or_no_paper": 9172,
+    "oversized": 784,
+    "tokens_emblems_art_vanguard_scheme_planar": 6197,
+    "token_minigame_art_alchemy_treasure_set_types": 79,
+    "no_oracle_id": 92,
+    "token_type_line": 1
+  },
+  "os_note": "Old School 93/94 legal means the card has a paper printing in the Eternal Central (North American) set list: Alpha, Beta, Unlimited, Revised (including Summer Magic and Foreign Black Border), Arabian Nights, Antiquities, Legends, The Dark, and Fallen Empires. This is not the Swedish list, which omits Fallen Empires. Banned and restricted tags follow Scryfall's Old School listings; Power Nine cards that Scryfall left untagged are marked restricted, matching the rest of the Power Nine.",
   "source_times": {
     "edhrec_lists": "2026-11-22T07:39:20.676253-06:00",
     "scryfall": "2026-11-22T10:06:09.976000+00:00",
