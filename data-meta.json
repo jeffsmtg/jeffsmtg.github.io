@@ -1,13 +1,13 @@
 {
-  "built": "2026-11-22T16:33:49-0600",
+  "built": "2026-11-23T08:18:06-0600",
   "oracles": 34593,
   "printings": 103950,
   "cards": 34593,
   "reserved": 571,
   "sealed": 428,
   "sets": 694,
-  "caption": "Prices as of Nov 22, 2026 (America/Chicago time): card prices are TCGplayer market prices from Scryfall bulk data (Nov 22, 4:06 AM CST). A few clearly bad USD quotes (a tiny dollar price next to a large euro price, mostly Summer Magic) were omitted and not replaced. Sealed prices are from TCGCSV (Nov 22, 7:39 AM CST). Tournament deck rates from MTGTop8 (Nov 22, 7:49 AM CST); Commander deck rates from EDHREC (Nov 22, 7:51 AM CST), for cards this site has fetched.",
-  "catalog_bytes_gz": 1623136,
+  "caption": "Prices as of Nov 23, 2026 (America/Chicago time): card prices are TCGplayer market prices from Scryfall bulk data (Nov 22, 4:06 AM CST). A few clearly bad USD quotes (a tiny dollar price next to a large euro price, mostly Summer Magic) were omitted and not replaced. Sealed prices are from TCGCSV (Nov 22, 7:39 AM CST). Tournament deck rates from MTGTop8 (Nov 22, 7:49 AM CST); Commander deck rates from EDHREC (Nov 22, 7:51 AM CST), for cards this site has fetched.",
+  "catalog_bytes_gz": 1623339,
   "ids_bytes_gz": 1662959,
   "omitted_prices": [
     {
@@ -147,13 +147,13 @@
   },
   "os_note": "Old School 93/94 legal means the card has a paper printing in the Eternal Central (North American) set list: Alpha, Beta, Unlimited, Revised (including Summer Magic and Foreign Black Border), Arabian Nights, Antiquities, Legends, The Dark, and Fallen Empires. This is not the Swedish list, which omits Fallen Empires. Banned and restricted tags follow Scryfall's Old School listings; Power Nine cards that Scryfall left untagged are marked restricted, matching the rest of the Power Nine.",
   "source_times": {
-    "edhrec_lists": "2026-11-22T07:39:20.676253-06:00",
-    "scryfall": "2026-11-22T10:06:09.976000+00:00",
-    "goldfish": "2026-11-22T07:39:35.394905-06:00",
-    "tcgcsv": "2026-11-22T07:39:46.646422-06:00",
-    "top8": "2026-11-22T07:49:26.430376-06:00",
-    "catalog": "2026-11-22T07:50:21.324743-06:00",
-    "edhrec": "2026-11-22T07:51:45.676335-06:00"
+    "edhrec_lists": "2026-11-23T07:40:22.339906-06:00",
+    "scryfall": "2026-11-23T10:06:22.277000+00:00",
+    "goldfish": "2026-11-23T07:40:36.856649-06:00",
+    "tcgcsv": "2026-11-23T07:40:39.029393-06:00",
+    "top8": "2026-11-23T08:05:50.406282-06:00",
+    "catalog": "2026-11-23T08:06:54.523697-06:00",
+    "edhrec": "2026-11-23T08:08:19.576066-06:00"
   },
   "seo_pages": 51
 }
