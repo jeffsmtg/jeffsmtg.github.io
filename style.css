@@ -279,3 +279,26 @@ td.empty { text-align: center; color: var(--text2); padding: 36px 20px; cursor: 
 .oracle p { margin: 0 0 4px; }
 .oracle p:last-child { margin-bottom: 0; }
 .print-list td:nth-child(3) { white-space: nowrap; }
+/* ---- price a list ---- */
+.decklist { display: grid; grid-template-columns: minmax(260px, 360px) minmax(0, 1fr); gap: 22px; margin-top: 18px; align-items: start; }
+.decklist > .dl-input { position: sticky; top: 140px; padding: 14px; }
+.decklist > :not(.dl-input) { grid-column: 2; }
+.decklist > .dl-input { grid-row: 1 / span 4; }
+.dl-text { height: 340px; padding: 10px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; line-height: 1.5; resize: vertical; }
+.dl-totals { display: flex; flex-wrap: wrap; gap: 10px; }
+.dl-totals > div { background: var(--bg-el); border: 1px solid var(--border); border-radius: 12px; padding: 10px 14px; box-shadow: var(--shadow); min-width: 130px; }
+.dl-totals .k { display: block; font-size: 12px; color: var(--text2); }
+.dl-totals .v { display: block; font-family: var(--display); font-size: 22px; font-weight: 650; }
+.dl-totals .bad { border-color: var(--danger); }
+.dl-totals .bad .v { color: var(--danger); }
+.dl-table td { vertical-align: middle; }
+.dl-table .name-cell { gap: 8px; }
+.dl-pick { height: 32px; min-width: 180px; max-width: 280px; font-size: 13px; }
+.dl-bad td { background: color-mix(in srgb, var(--danger) 9%, transparent) !important; }
+.dl-table tfoot td { border-top: 2px solid var(--border); font-size: 14px; background: var(--bg-head); }
+@media (max-width: 900px) {
+  .decklist { grid-template-columns: 1fr; }
+  .decklist > :not(.dl-input), .decklist > .dl-input { grid-column: 1; grid-row: auto; position: static; }
+  .dl-text { height: 200px; }
+  .dl-pick { min-width: 150px; }
+}
