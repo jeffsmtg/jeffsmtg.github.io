@@ -1,13 +1,13 @@
 {
-  "built": "2026-11-23T08:18:06-0600",
+  "built": "2026-11-23T16:18:36-0600",
   "oracles": 34593,
   "printings": 103950,
   "cards": 34593,
   "reserved": 571,
   "sealed": 428,
   "sets": 694,
-  "caption": "Prices as of Nov 23, 2026 (America/Chicago time): card prices are TCGplayer market prices from Scryfall bulk data (Nov 22, 4:06 AM CST). A few clearly bad USD quotes (a tiny dollar price next to a large euro price, mostly Summer Magic) were omitted and not replaced. Sealed prices are from TCGCSV (Nov 22, 7:39 AM CST). Tournament deck rates from MTGTop8 (Nov 22, 7:49 AM CST); Commander deck rates from EDHREC (Nov 22, 7:51 AM CST), for cards this site has fetched.",
-  "catalog_bytes_gz": 1623339,
+  "caption": "Prices as of Nov 23, 2026 (America/Chicago time): card prices are TCGplayer market prices from Scryfall bulk data (Nov 23, 4:06 AM CST). A few clearly bad USD quotes (a tiny dollar price next to a large euro price, mostly Summer Magic) were omitted and not replaced. Sealed prices are from TCGCSV (Nov 23, 7:40 AM CST). Tournament deck rates from MTGTop8 (Nov 23, 8:05 AM CST); Commander deck rates from EDHREC (Nov 23, 8:08 AM CST), for cards this site has fetched.",
+  "catalog_bytes_gz": 1822005,
   "ids_bytes_gz": 1662959,
   "omitted_prices": [
     {
