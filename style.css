@@ -302,3 +302,46 @@ td.empty { text-align: center; color: var(--text2); padding: 36px 20px; cursor: 
   .dl-text { height: 200px; }
   .dl-pick { min-width: 150px; }
 }
+
+/* ---- query syntax hint ---- */
+.syntax-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; padding: 6px 2px 2px; font-size: 13px; color: var(--text2); }
+.syntax-bar code, .syntax-help code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; background: var(--accent-subtle); color: var(--text); padding: 1px 5px; border-radius: 4px; margin: 0 2px; white-space: nowrap; }
+.syntax-bar .ok { color: var(--ok); }
+.syntax-bar .bad { color: var(--danger); }
+.syntax-bar .bad code { background: color-mix(in srgb, var(--danger) 14%, transparent); }
+.syntax-link { font-size: 13px; }
+.syntax-help { flex-basis: 100%; background: var(--bg-el); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 12px; margin-top: 4px; max-height: 55vh; overflow: auto; }
+.syntax-help table { border-collapse: collapse; width: 100%; font-size: 13px; color: var(--text); }
+.syntax-help td { padding: 4px 8px 4px 0; border-top: 1px solid var(--border); vertical-align: top; }
+.syntax-help .chip-row { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.syntax-help .chip { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+
+/* ---- saved searches ---- */
+.save-row { display: flex; gap: 6px; }
+.save-row .control { flex: 1; min-width: 0; }
+.saved-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.saved-list li { display: flex; align-items: center; justify-content: space-between; gap: 6px; padding: 4px 8px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg-el); }
+.saved-list .linkish { text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.saved-list .x { border: 0; background: none; color: var(--text2); font-size: 18px; line-height: 1; cursor: pointer; padding: 0 4px; }
+.saved-list .x:hover { color: var(--danger); }
+
+/* ---- price movers ---- */
+.movers { margin-top: 18px; }
+.movers-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 8px; }
+.movers-min { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--text2); }
+.movers-min .control { width: 80px; height: 32px; }
+.movers td.up { color: var(--ok); font-weight: 600; }
+.movers td.down { color: var(--danger); font-weight: 600; }
+.movers tbody tr { cursor: pointer; }
+@media (max-width: 700px) {
+
+  .movers-head .seg { overflow-x: auto; max-width: 100%; }
+  .syntax-help td:nth-child(3) { display: none; }
+}
+.movers .mv-m { display: none; }
+@media (max-width: 700px) {
+  .movers .mv-d { display: none; }
+  .movers .mv-m { display: block; }
+}
+.syntax-help td:first-child { white-space: nowrap; width: 1%; }
+.syntax-help td:last-child { white-space: nowrap; width: 1%; }
