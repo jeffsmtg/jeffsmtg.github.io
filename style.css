@@ -360,3 +360,17 @@ td.empty { text-align: center; color: var(--text2); padding: 36px 20px; cursor: 
   .sticky { position: relative; }
   .filter-toggle { justify-content: center; align-items: center; font-weight: 600; background: var(--accent); color: var(--accent-text); border-color: var(--accent); height: 40px; }
 }
+
+/* ---- one row per card: mode switch, printings count and hover list ---- */
+.row-mode { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); }
+.row-mode .caption { font-size: 13px; margin: 0; }
+.pr-badge { display: block; margin-top: 2px; padding: 0; border: 0; background: none; color: var(--text2); font: inherit; font-size: 12px; text-decoration: underline dotted; text-underline-offset: 2px; cursor: pointer; text-align: left; }
+.pr-badge:hover { color: var(--accent); }
+.pr-pop { position: fixed; z-index: 60; width: 330px; max-width: calc(100vw - 16px); background: var(--bg-el); border: 1px solid var(--border); border-radius: 12px; box-shadow: var(--shadow-lg); padding: 10px 12px; pointer-events: none; font-size: 12.5px; }
+.pr-pop-h { font-weight: 600; margin-bottom: 6px; color: var(--text); }
+.pr-pop table { width: 100%; border-collapse: collapse; }
+.pr-pop td { padding: 3px 4px 3px 0; border-top: 1px solid var(--border); color: var(--text); vertical-align: top; }
+.pr-pop td.c { color: var(--text2); white-space: nowrap; }
+.pr-pop td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pr-pop-f { margin-top: 6px; color: var(--text2); }
+@media (max-width: 900px) { .row-mode .seg { flex: none; } }
