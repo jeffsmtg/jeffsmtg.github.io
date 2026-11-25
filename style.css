@@ -345,3 +345,18 @@ td.empty { text-align: center; color: var(--text2); padding: 36px 20px; cursor: 
 }
 .syntax-help td:first-child { white-space: nowrap; width: 1%; }
 .syntax-help td:last-child { white-space: nowrap; width: 1%; }
+
+/* ---- quick collector groups above the results (always visible, phones too) ---- */
+.quick-bar { margin: 14px 0 4px; padding: 10px 12px; background: var(--bg-el); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); }
+.quick-bar .chip-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.quick-bar .note { margin: 8px 2px 0; font-size: 13.5px; color: var(--text2); }
+.quick-bar .more-groups { font-size: 13px; margin-left: 4px; }
+.filter-toggle svg { margin-right: 6px; }
+@media (max-width: 900px) {
+  .quick-bar { padding: 8px 10px; margin-top: 10px; }
+  .quick-bar .chip-row { gap: 5px; }
+  .quick-bar .chip { padding: 4px 9px; font-size: 12.5px; }
+  /* on phones the search bar and toolbar scroll away, so results get the screen */
+  .sticky { position: relative; }
+  .filter-toggle { justify-content: center; align-items: center; font-weight: 600; background: var(--accent); color: var(--accent-text); border-color: var(--accent); height: 40px; }
+}
